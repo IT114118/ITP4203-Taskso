@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Taskso</string>
+
+    <!-- MainActivity -->
+    <string name="ma_viewGroupList">View Group List</string>
+    <string name="ma_viewStatistics">View Statistics</string>
+    <string name="ma_viewStarredTasks">View Starred Tasks</string>
+
+    <!-- StatisticsActivity -->
+    <string name="sa_tVCount">Count</string>
+    <string name="sa_tVGroups">Groups:</string>
+    <string name="sa_tVTasks">Tasks:</string>
+    <string name="sa_tVTaskStats">Task Stats</string>
+    <string name="sa_tVCompleted">Completed:</string>
+    <string name="sa_tVIncomplete">Incomplete:</string>
+    <string name="sa_tVCompletedRatio">Completed Ratio:</string>
+
+    <!-- Button -->
+    <string name="btn_createGroup">Create Group</string>
+    <string name="btn_createTask">Create Task</string>
+    <string name="btn_manage">Manage</string>
+    <string name="btn_back">Back</string>
+    <string name="btn_promptGroupCreate">Group name:</string>
+    <string name="btn_promptTaskCreate">Task name:</string>
+    <string name="btn_delete">Delete</string>
+    <string name="text_defaultName_Group">Untitled Group</string>
+    <string name="text_defaultName_Task">Untitled Task</string>
+    <string name="btn_create">Create</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="text_starHints">Starring some tasks to see them here!</string>
+</resources>

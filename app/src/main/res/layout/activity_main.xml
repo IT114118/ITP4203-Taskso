@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"
+        android:paddingBottom="70dp"
+        android:src="@drawable/taskso"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnViewGroupList"
+            android:text="@string/ma_viewGroupList"
+            android:backgroundTint="@color/colorLight"
+            android:onClick="button_ViewGroupList_onClick" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnViewStarredTasks"
+            android:text="@string/ma_viewStarredTasks"
+            android:backgroundTint="@color/colorLight"
+            android:onClick="button_ViewStarredTasks_onClick" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnViewStatistics"
+            android:text="@string/ma_viewStatistics"
+            android:backgroundTint="@color/colorLight"
+            android:onClick="button_ViewStatistics_onClick" />
+    </LinearLayout>
+</RelativeLayout >

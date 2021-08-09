@@ -1,0 +1,2 @@
+rootProject.name='Taskso'
+include ':app'

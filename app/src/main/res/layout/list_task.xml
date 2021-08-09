@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginBottom="0dp">
+
+        <CheckBox android:id="@+id/checkBox_Task"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tV1"
+            android:text="Task Name"
+            android:textSize="26sp"
+            android:padding="8dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"/>
+
+        <CheckBox
+            android:button="@android:drawable/btn_star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox_Star"
+            android:padding="8dp"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnDel"
+            android:text="@string/btn_delete"/>
+    </LinearLayout>
+</LinearLayout>

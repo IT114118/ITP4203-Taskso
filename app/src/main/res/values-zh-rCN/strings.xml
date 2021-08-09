@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Taskso</string>
+    <string name="ma_viewGroupList">查看任务组</string>
+    <string name="ma_viewStatistics">查看统计</string>
+    <string name="ma_viewStarredTasks">查看已星标的任务</string>
+    <string name="sa_tVCount">总数</string>
+    <string name="sa_tVGroups">任务组：</string>
+    <string name="sa_tVTasks">任务：</string>
+    <string name="sa_tVTaskStats">任务统计</string>
+    <string name="sa_tVCompleted">已完成：</string>
+    <string name="sa_tVIncomplete">未完成：</string>
+    <string name="sa_tVCompletedRatio">完成比例：</string>
+    <string name="btn_createGroup">创建任务组</string>
+    <string name="btn_createTask">创建任务</string>
+    <string name="btn_manage">管理</string>
+    <string name="btn_back">返回</string>
+    <string name="btn_promptGroupCreate">任务组名称：</string>
+    <string name="btn_promptTaskCreate">任务名称：</string>
+    <string name="btn_delete">删除</string>
+    <string name="text_defaultName_Task">新任务</string>
+    <string name="text_defaultName_Group">新任务组</string>
+    <string name="btn_create">创建</string>
+    <string name="btn_cancel">取消</string>
+    <string name="text_starHints">为一些任务加注星标吧！</string>
+</resources>
